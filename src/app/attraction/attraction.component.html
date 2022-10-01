@@ -1,0 +1,11 @@
+<div class="attraction">
+    <div class="attraction__images" >
+      <div class="attraction__images__item" [style.background-image]="'url('+ a.Img + ')'"  *ngFor="let a of attractions" (click)="active(a)">
+        <span> {{a.Title}}</span>
+      </div>
+    </div>
+    <div class="attraction__text">
+      <span class="attraction__text__title"> {{attraction.Title}} </span>
+      <span class="attraction__text__body"> {{attraction.Text}} </span>
+    </div>
+  </div>
