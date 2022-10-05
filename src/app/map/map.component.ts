@@ -18,7 +18,7 @@ export class MapComponent implements OnInit {
 
   ngOnInit() {
 
-    var place = [11.23, 43.79];
+    var place = [100.3025,5.3559];
     this.map = new Map({
       target: 'hotel_map',
 
