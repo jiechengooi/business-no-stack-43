@@ -1,3 +1,6 @@
+# business-no-stack-43
+# This is a landing page developed using angular. Integrated with the javascript library(OpenLayers) and css library(Semantic UI). This is a multipage web application. It was deployed in the heroku, therefore a server was set using express. There is ambiguity whether this is full stack/non-full stack. At the moment I consider this as semi-stack.
+
 # Client
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
